@@ -18,7 +18,7 @@ namespace RB_CreateGamesList
 
         bool ISystemMenuItemPlugin.AllowInBigBoxWhenLocked { get { return false; } }
 
-        Image ISystemMenuItemPlugin.IconImage { get { return null; } }
+        Image ISystemMenuItemPlugin.IconImage { get { return Properties.Resources.list; } }
 
         void ISystemMenuItemPlugin.OnSelected()
         {
